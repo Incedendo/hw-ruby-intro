@@ -90,6 +90,11 @@ end
 # Part 2
 
 def hello(name)
+  if name.length() == 0
+    puts "Name cannot be null"
+    return
+  end 
+  
   # YOUR CODE HERE
   return "Hello, #{name}"
 end
